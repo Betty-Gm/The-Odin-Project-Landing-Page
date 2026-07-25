@@ -153,3 +153,10 @@ img{
 .fourth-button{
     text-align: center;
 }
+.footer{
+    background-color:#1F2937 ;
+  color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
