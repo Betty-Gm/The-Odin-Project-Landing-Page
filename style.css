@@ -39,7 +39,7 @@ body{
     font-size: 18px;
     color: #E5E7EB;
 }
-.right button , .sign-up{
+.right button {
     background-color:#3882F6 ;
     border-style: none;
     border-radius: 6%;
@@ -123,4 +123,33 @@ img{
     font-weight: 700;
     font-style: normal;
     font-size: 25px;
+}
+
+.fourth{
+    background-color: white;
+    padding: 60px;
+
+}
+.call-for-action{
+    display: flex;
+     background-color:#3882F6;
+     border-radius: 8px;
+     padding: 40px 70px;
+   
+     align-items: center;
+     justify-content: space-between; 
+}
+#sign-up{
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left:20px;
+    margin-top: 30px;
+    
+}
+.fourth-button{
+    text-align: center;
 }
