@@ -4,6 +4,8 @@ body{
 .container{
     display: flex;
     flex-direction: column;
+     max-width: 1200px;
+    margin: 0 auto;
 
 }
 .first{
@@ -105,4 +107,20 @@ img{
     margin-top: 10px;
     color: gray;
     text-align: center;
+}
+.third{
+    padding: 60px;
+    text-align: center;
+    background-color: #E5E7EB;
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+
+}
+.third footer{
+    text-align: right;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
 }
