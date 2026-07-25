@@ -1,0 +1,76 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.first{
+    background-color:#1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 80px;
+    
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+#logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.hero-header{
+    flex: auto;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.hero-discription{
+    flex: auto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.right button , .sign-up{
+    background-color:#3882F6 ;
+    border-style: none;
+    border-radius: 8%;
+    color: #F9FAF8;
+    padding: 12px 28px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    
+     padding-right: 80px;
+    padding-left: 80px;
+    gap: 15px;
+}
+#header-links{
+    display: flex;
+    gap: 30px;
+    
+}
+#header-links a{
+    text-decoration: none;
+    color: #E5E7EB ;
+}
+.right , .left{
+    flex:1;
+}
+img{
+    max-height: 300px;
+    width: 100%;
+    border-radius: 8px;
+}
+.right div{
+    margin-bottom: 8px;
+    
+}
